@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_home_student2">
+
+
+    <item
+        android:id="@+id/home_btn"
+        android:icon="@drawable/home_button"
+        android:title="@string/home_screen"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/change_password"
+        android:title="@string/change_password"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/roundlayout"
+    android:orientation="vertical"
+    tools:context="sahab.singh.scms.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/student_icon"
+        android:layout_width="180dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/main_activity_icon_background"
+        android:clickable="true"
+        android:contentDescription="@string/student"
+        android:focusable="true"
+        android:src="@drawable/student" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/image"
+        android:fontFamily="cursive"
+        android:gravity="center_horizontal"
+        android:shadowColor="#000000"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="1.6"
+        android:text="Student"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/teachers_icon"
+        android:layout_width="180dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/main_activity_icon_background"
+        android:clickable="true"
+
+        android:contentDescription="@string/teacher"
+        android:focusable="true"
+        android:src="@drawable/teachers" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/image"
+        android:fontFamily="cursive"
+        android:gravity="center_horizontal"
+        android:shadowColor="#000000"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="1.6"
+        android:text="Teacher"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/admin_icon"
+        android:layout_width="180dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/main_activity_icon_background"
+        android:clickable="true"
+        android:contentDescription="@string/admin"
+        android:focusable="true"
+        android:src="@drawable/admin" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/image"
+        android:fontFamily="cursive"
+        android:gravity="center_horizontal"
+        android:shadowColor="#000000"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="1.6"
+        android:text="Admin"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+
+</LinearLayout>

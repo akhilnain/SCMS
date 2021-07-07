@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/leave_app_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sahab.singh.digicollage.Student_Activity_Nav_Fragments.Fragment_Student_Nav_Leave_Application">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <EditText
+            android:id="@+id/email_Content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Enter Your Issue and Date For Leave"
+            android:inputType="textMultiLine"
+            android:shadowColor="#000000"
+            android:shadowDx="1.5"
+            android:shadowDy="1.3"
+            android:shadowRadius="1.6"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/Apply_Leave"
+            style="@style/Login_activity_style"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:shadowColor="#000000"
+            android:shadowDx="1.5"
+            android:shadowDy="1.3"
+            android:shadowRadius="1.6"
+            android:text="Apply Leave" />
+    </LinearLayout>
+</FrameLayout>
