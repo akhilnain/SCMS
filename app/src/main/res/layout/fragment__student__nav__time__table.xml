@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="2dp"
-    tools:context="sahab.singh.digicollage.Student_Activity_Nav_Fragments.Fragment_Student_Nav_My_Time_Table">
+    tools:context="sahab.singh.scms.Student_Activity_Nav_Fragments.Fragment_Student_Nav_My_Time_Table">
 
     <!-- TODO: Update blank fragment layout -->
     <com.github.barteksc.pdfviewer.PDFView

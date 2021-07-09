@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="12dp"
-    tools:context="sahab.singh.digicollage.Student_Activity_Nav_Fragments.Fragment_Student_Nav_Class_Home_Work">
+    tools:context="sahab.singh.scms.Student_Activity_Nav_Fragments.Fragment_Student_Nav_Class_Home_Work">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

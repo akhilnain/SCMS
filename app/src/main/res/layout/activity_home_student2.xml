@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/roundlayout"
     android:orientation="vertical"
-    tools:context="sahab.singh.digicollage.Home.Home_Activity_Student">
+    tools:context="sahab.singh.scms.Home.Home_Activity_Student">
 
     <LinearLayout
         android:layout_width="wrap_content"

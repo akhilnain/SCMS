@@ -4,7 +4,7 @@
     android:id="@+id/leave_app_frame"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="sahab.singh.digicollage.Student_Activity_Nav_Fragments.Fragment_Student_Nav_Leave_Application">
+    tools:context="sahab.singh.scms.Student_Activity_Nav_Fragments.Fragment_Student_Nav_Leave_Application">
 
     <LinearLayout
         android:layout_width="match_parent"

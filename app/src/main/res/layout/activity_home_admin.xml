@@ -3,6 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="sahab.singh.digicollage.Home.Home_Activity_Admin">
+    tools:context="sahab.singh.scms.Home.Home_Activity_Admin">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

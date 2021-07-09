@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/roundlayout"
     android:padding="12dp"
-    tools:context="sahab.singh.digicollage.Student_Activity_Nav_Fragments.Fragment_Student_Nav_Home">
+    tools:context="sahab.singh.scms.Student_Activity_Nav_Fragments.Fragment_Student_Nav_Home">
 
     <LinearLayout
         android:layout_width="match_parent"
